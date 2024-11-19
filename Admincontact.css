@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa; /* สีพื้นหลังที่ดูสะอาด */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อยให้ header */
+}
+
+.card {
+    border-radius: 8px; /* มุมโค้งของการ์ด */
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+textarea {
+    resize: none; /* ปิดการปรับขนาด textarea */
+}
