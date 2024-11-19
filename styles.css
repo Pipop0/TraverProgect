@@ -1,13 +1,13 @@
 /* ตัวอักษร */
 body {
     font-family: 'Prompt', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #dbddde;
     color: #212529;
 }
 /* =================================================================
 /* Header Background */
 header {
-    background-color: #f8f9fa; /* โทนสีอ่อน */
+    background-color: #ecf1f6; /* โทนสีอ่อน */
     border-bottom: 1px solid #dee2e6; /* เส้นขอบด้านล่าง */
 }
 
