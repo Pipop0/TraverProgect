@@ -2,13 +2,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #4a4a4a; /* สีพื้นหลัง */
 }
+
 header {
-    background-color: #353635;
+    background-color: #343a40;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
     text-align: center;
+}
+
+.custom-btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+    position: absolute; /* จัดตำแหน่งแบบอิสระ */
+    left: 10px; /* ชิดด้านซ้าย */
+    top: 50%; /* จัดตรงกลางแกน Y */
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #f0f0f0;
+    border-color: #888;
 }
 .container {
     width: 80%;
